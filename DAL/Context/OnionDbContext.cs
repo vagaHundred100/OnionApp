@@ -13,6 +13,7 @@ namespace DAL.Context
 {
     //IdentityRole default identiti - nin classidir 
     //string hamsinin id-si stringdir
+    //ggg
     public class OnionDbContext : IdentityDbContext<User,Role,Guid>
     {
 
@@ -24,9 +25,6 @@ namespace DAL.Context
 
         public DbSet<Image> Images { get; set; }
         public DbSet<Message> Messages { get; set; }
-        public DbSet<Chat> Chats { get; set; }
-        public DbSet<ChatMessage> ChatMessages { get; set; }
-        public DbSet<ChatMember> ChatMembers { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

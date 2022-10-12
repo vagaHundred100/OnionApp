@@ -8,5 +8,6 @@ namespace DAL.Context.SeedData
 {
     public static class SeedMessages
     {
+        //
     }
 }
